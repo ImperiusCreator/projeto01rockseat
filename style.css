@@ -6,22 +6,22 @@
 
 :root{
     --text-color: white;
-    --bg-url: url(./assests/assets/assets/bg-mobile.jpg);
+    --bg-url: url(./assets/imagens/bg-mobile.jpg);
     --stroke-color: rgba(255, 255 , 255, 0.5);
     --surface-color:  rgba(255, 255, 255, 0.05);
     --surface-color-hover:  rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(255, 255, 255, 0.2); 
-    --switch-bg-url: url(assests/assets/assets/moon-star.svg) 
+    --switch-bg-url: url(./assets/imagens/moon-star.svg) 
 }
 
 .light{
     --text-color: black;
-    --bg-url: url(./assests/assets/assets/bg-mobile-light.jpg);
+    --bg-url: url(./assets/imagens/bg-mobile-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);  
     --surface-color-hover:  rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(assests/assets/assets/sun-star.svg) 
+    --switch-bg-url: url(./assets/imagens/sun-star.svg) 
 
 }
 
@@ -85,7 +85,7 @@ body * {
         left: 0;
         transform: translateY(-50%);
         z-index: 1;
-         animation: slide-out 0.2s ;
+        animation: slide-out 0.2s ;
     }
 
     .light #switch button {
@@ -165,7 +165,7 @@ body * {
         padding: 16px;
 
         transition: 0;2s;
-         border-radius:  50%;
+        border-radius:  50%;
     }
 
     #social-links a:hover{
@@ -199,12 +199,12 @@ footer a:hover {
 
 /* media queries */ 
 @media (min-width: 700px) {
-    :root:{
-        --bg-url: url(./assests/assets/assets/bg-desktop.jpg);
+    :root{
+        --bg-url: url(./assets/imagens/bg-desktop.jpg);
     }
 
     .light{
-        --bg-url: url(./assests/assets/assets/bg-desktop-light.jpg);
+        --bg-url: url(./assets/imagens/bg-desktop-light.jpg);
     }
 
        

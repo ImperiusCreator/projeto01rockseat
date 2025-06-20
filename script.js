@@ -7,12 +7,12 @@ function toggleMode() {
 
      if(html.classList.contains("light")){
 
-        img.setAttribute("src", "./assests/assets/assets/imagem-escura1.png")
-        img.setAttribute("alt", "Foto de Gilberto Gonçalves sorrindo, usando óculos escuros e jaqueta verde, em um fundo de pasaigem.");
+        img.setAttribute("src", "./assets/imagens/imagem-escura1.png")
+        img.setAttribute("alt", "Foto de Gilberto Gonçalves sorrindo, usando óculos escuros e jaqueta verde.");
        
        } else {
 
-        img.setAttribute("src", "./assests/assets/assets/imagem-clara1.png")
+        img.setAttribute("src", "./assets/imagens/imagem-clara1.png")
         img.setAttribute("alt", "Foto de Gilberto Gonçalves sorrindo, usando óculos claro, blusa clara e sorrindo.");
        
       
