@@ -28,6 +28,7 @@
 body{
  
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
     }
 
 body * {
@@ -189,4 +190,17 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+/* media queries */ 
+@media (min-width: 700px) {
+    :root:{
+        --bg-url: url(./assests/assets/assets/bg-desktop.jpg);
+    }
+
+    .light{
+        --bg-url: url(./assests/assets/assets/bg-desktop-light.jpg);
+    }
+
+       
 }
